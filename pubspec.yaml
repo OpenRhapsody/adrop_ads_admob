@@ -1,0 +1,31 @@
+name: adrop_ads_admob
+description: AdropAds flutter plugin for Admob mediation
+version: 0.1.0-dev.1
+publisher: dev@openrhapsody.com
+homepage: https://adrop.io
+repository: https://github.com/OpenRhapsody/adrop_ads_admob
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  adrop_ads_flutter: ^0.5.0-dev.1
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.1.0
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.adrop.adrop_ads_admob
+        pluginClass: AdropAdsAdmobPlugin
+      ios:
+        pluginClass: AdropAdsAdmobPlugin
