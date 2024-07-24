@@ -75,7 +75,7 @@ allprojects {
 }
 
 dependencies {
-    implementation("io.adrop:mediation-admob:0.1.0-alpha.5") {
+    implementation("io.adrop:mediation-admob:0.1.0") {
         exclude group: 'androidx.appcompat', module: 'appcompat'
     }
     implementation("com.google.android.gms:play-services-ads:23.1.0")

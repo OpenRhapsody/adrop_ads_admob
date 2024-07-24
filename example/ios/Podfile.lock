@@ -1,10 +1,10 @@
 PODS:
   - adrop-ads (0.5.3)
-  - adrop-ads-mediation-admob (0.1.0-alpha.4):
+  - adrop-ads-mediation-admob (0.1.0):
     - adrop-ads (< 1.0.0, >= 0.5.3)
     - Google-Mobile-Ads-SDK (~> 11.0)
-  - adrop_ads_admob (0.1.0-dev.1):
-    - adrop-ads-mediation-admob (~> 0.1.0-alpha.4)
+  - adrop_ads_admob (0.1.0):
+    - adrop-ads-mediation-admob (~> 0.1.0)
     - Flutter
   - adrop_ads_flutter (0.5.0-dev.1):
     - adrop-ads (~> 0.5.0)
@@ -16,7 +16,7 @@ PODS:
     - Flutter
     - Google-Mobile-Ads-SDK (~> 11.2.0)
     - webview_flutter_wkwebview
-  - GoogleUserMessagingPlatform (2.4.0)
+  - GoogleUserMessagingPlatform (2.5.0)
   - integration_test (0.0.1):
     - Flutter
   - webview_flutter_wkwebview (0.0.1):
@@ -53,13 +53,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   adrop-ads: 9fd755b77fb3d2c5b58bc23f341008974b86e0f4
-  adrop-ads-mediation-admob: d8795995c204d0d85f73293fb957cc5fc309471c
-  adrop_ads_admob: f61998a2b3826bbdb9bfd54f537b9e6403d3d08a
+  adrop-ads-mediation-admob: 451bc05f5cfe4886910918a2908ef368a5eb9e5c
+  adrop_ads_admob: cf2e0aa6064d4d979b943ba54fd42ed3ac6b1fda
   adrop_ads_flutter: 6744684b5f559b9168d1a4494d22433f02529ec9
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   Google-Mobile-Ads-SDK: 5a6d005a6cb5b5e8f4c7b69ca05cdea79c181139
   google_mobile_ads: 9379c80fdfa9988fb0e105a407890ff8deb3cf86
-  GoogleUserMessagingPlatform: f131fa7978d2ba88d7426702b057c2cc318e6595
+  GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
   integration_test: 13825b8a9334a850581300559b8839134b124670
   webview_flutter_wkwebview: be0f0d33777f1bfd0c9fdcb594786704dbf65f36
 

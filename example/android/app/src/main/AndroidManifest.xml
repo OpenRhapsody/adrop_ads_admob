@@ -32,7 +32,7 @@
 
         <meta-data
                 android:name="com.google.android.gms.ads.APPLICATION_ID"
-                android:value="ca-app-pub-2926914265361170~6504009578"/>
+                android:value="ca-app-pub-3141837772329875~9756060075"/>
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility?hl=en and

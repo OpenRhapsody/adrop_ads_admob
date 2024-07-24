@@ -7,15 +7,15 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.1.0-dev.1"
+    version: "0.1.0"
   adrop_ads_flutter:
     dependency: transitive
     description:
       name: adrop_ads_flutter
-      sha256: b7b68b89c82a4427a8e96c628ba9051cfa3f4a7901bf324a3142bf0ec43fabaa
+      sha256: "7d95548ec0062c055aa1fb1b62e5de00f2b2c76f0c16f799a3ac0dd53570eef9"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.0-dev.1"
+    version: "0.5.0"
   async:
     dependency: transitive
     description:
@@ -330,10 +330,10 @@ packages:
     dependency: transitive
     description:
       name: webview_flutter_wkwebview
-      sha256: "7affdf9d680c015b11587181171d3cad8093e449db1f7d9f0f08f4f33d24f9a0"
+      sha256: "9c62cc46fa4f2d41e10ab81014c1de470a6c6f26051a2de32111b2ee55287feb"
       url: "https://pub.dev"
     source: hosted
-    version: "3.13.1"
+    version: "3.14.0"
 sdks:
   dart: ">=3.3.3 <4.0.0"
   flutter: ">=3.16.6"

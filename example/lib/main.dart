@@ -20,24 +20,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final adUnitId =
-      Platform.isAndroid ? 'ca-app-pub-2926914265361170/2941298347' : 'ca-app-pub-3141837772329875/5227710010';
+      Platform.isAndroid ? 'ca-app-pub-3141837772329875/5738237096' : 'ca-app-pub-3141837772329875/5227710010';
 
   InitializationStatus? status;
   BannerAd? _bannerAd;
   bool _isLoaded = false;
-
-  @override
-  void initState() {
-    super.initState();
-    initAdmob();
-  }
-
-  Future<void> initAdmob() async {
-    if (Platform.isIOS) {
-      MobileAds.instance
-          .updateRequestConfiguration(RequestConfiguration(testDeviceIds: ["bfd8f1928d23842fc203132fe75de135"]));
-    }
-  }
 
   void loadAd() {
     _bannerAd = BannerAd(
@@ -59,13 +46,7 @@ class _MyAppState extends State<MyApp> {
           ad.dispose();
         },
       ),
-    )
-        // ..load();
-        ;
-
-    MobileAds.instance.initialize().then((value) {
-      _bannerAd?.load();
-    });
+    )..load();
   }
 
   @override

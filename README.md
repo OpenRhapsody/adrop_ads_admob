@@ -1,7 +1,6 @@
 Adrop Ads Admob Mediation Plugin
 ---------------
-
-Adrop ads plugin for admob mediation
+Adrop ads flutter plugin for admob mediation
 
 Documentation
 -------------

@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'adrop_ads_admob'
-  s.version          = '0.1.0-dev.1'
+  s.version          = '0.1.0'
   s.summary          = 'Adrop ads for admob mediation'
   s.description      = 'AdropAds flutter plugin for admob mediation'
   s.homepage         = 'http://openrhapsody.com'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'adrop-ads-mediation-admob', '~> 0.1.0-alpha.4'
+  s.dependency 'adrop-ads-mediation-admob', '~> 0.1.0'
   s.static_framework = true
   s.platform = :ios, '13.0'
 

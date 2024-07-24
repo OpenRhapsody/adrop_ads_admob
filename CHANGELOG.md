@@ -1,2 +1,2 @@
-## 0.1.0-dev.1
-- Support Admob mediation
+## 0.1.0
+Support Admob mediation
