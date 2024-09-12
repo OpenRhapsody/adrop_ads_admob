@@ -19,8 +19,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final adUnitId =
-      Platform.isAndroid ? 'ca-app-pub-3141837772329875/5738237096' : 'ca-app-pub-3141837772329875/5227710010';
+  final adUnitId = Platform.isAndroid
+      ? 'ca-app-pub-3141837772329875/5738237096'
+      : 'ca-app-pub-3141837772329875/5227710010';
 
   InitializationStatus? status;
   BannerAd? _bannerAd;
