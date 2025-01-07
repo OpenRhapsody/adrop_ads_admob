@@ -4,5 +4,5 @@ Adrop ads flutter plugin for admob mediation
 
 Documentation
 -------------
-Check out our integration docs [here](https://docs.adrop.io/v/korean/fundamentals/get-started-with-adrop/add-adrop-to-flutter).
+Check out our integration docs [here](https://adrop.gitbook.io/welcome-to-adrop/publisher-guide/google-admob-adrop-adapter).
 
