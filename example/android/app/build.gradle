@@ -26,7 +26,7 @@ print("flutter.compileSdkVersion ${flutter.compileSdkVersion}, ${flutter.ndkVers
 
 android {
     namespace "io.adrop.adrop_ads_admob_example"
-    compileSdk flutter.compileSdkVersion
+    compileSdk 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
